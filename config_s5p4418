@@ -1,0 +1,159 @@
+CONFIG_TARGET_bcm53xx=y
+CONFIG_TARGET_MULTI_PROFILE=y
+CONFIG_TARGET_ALL_PROFILES=y
+CONFIG_ALL_KMODS=y
+CONFIG_ALL_NONSHARED=y
+CONFIG_DEVEL=y
+CONFIG_AUTOREMOVE=y
+CONFIG_BRCMFMAC_SDIO=y
+CONFIG_BUILDBOT=y
+CONFIG_DISPLAY_SUPPORT=y
+CONFIG_IB=y
+CONFIG_IMAGEOPT=y
+# CONFIG_KERNEL_DEBUG_LL is not set
+# CONFIG_KERNEL_DEBUG_LL_UART_NONE is not set
+# CONFIG_KERNEL_EARLY_PRINTK is not set
+# CONFIG_KERNEL_KALLSYMS is not set
+CONFIG_PACKAGE_ar3k-firmware=y
+CONFIG_PACKAGE_ath6k-firmware=y
+CONFIG_PACKAGE_ath9k-htc-firmware=y
+CONFIG_PACKAGE_brcmfmac-firmware-43430-sdio=y
+# CONFIG_PACKAGE_brcmfmac-firmware-43602a1-pcie is not set
+# CONFIG_PACKAGE_brcmfmac-firmware-4366b1-pcie is not set
+CONFIG_PACKAGE_carl9170-firmware=y
+CONFIG_PACKAGE_e2fsprogs=y
+CONFIG_PACKAGE_edgeport-firmware=y
+CONFIG_PACKAGE_iperf=y
+CONFIG_PACKAGE_kmod-b43=m
+CONFIG_PACKAGE_kmod-backlight=m
+CONFIG_PACKAGE_kmod-backlight-pwm=m
+CONFIG_PACKAGE_kmod-fb=m
+CONFIG_PACKAGE_kmod-fb-cfb-copyarea=m
+CONFIG_PACKAGE_kmod-fb-cfb-fillrect=m
+CONFIG_PACKAGE_kmod-fb-cfb-imgblt=m
+CONFIG_PACKAGE_kmod-fb-sys-fops=m
+CONFIG_PACKAGE_kmod-gpio-button-hotplug=m
+CONFIG_PACKAGE_kmod-leds-gpio=m
+CONFIG_PACKAGE_kmod-ledtrig-default-on=m
+CONFIG_PACKAGE_kmod-ledtrig-timer=m
+CONFIG_PACKAGE_kmod-mac80211=m
+CONFIG_PACKAGE_kmod-mmc=y
+CONFIG_PACKAGE_kmod-phy-bcm-ns-usb2=m
+CONFIG_PACKAGE_kmod-phy-bcm-ns-usb3=m
+CONFIG_PACKAGE_kmod-rtc-ds1307=m
+CONFIG_PACKAGE_kmod-rtc-ds1374=m
+CONFIG_PACKAGE_kmod-rtc-ds1672=m
+CONFIG_PACKAGE_kmod-rtc-isl1208=m
+CONFIG_PACKAGE_kmod-rtc-pcf2123=m
+CONFIG_PACKAGE_kmod-rtc-pcf8563=m
+CONFIG_PACKAGE_kmod-rtc-pt7c4338=m
+CONFIG_PACKAGE_kmod-rtc-rs5c372a=m
+CONFIG_PACKAGE_kmod-usb-bcma=m
+CONFIG_PACKAGE_kmod-usb-ehci=m
+CONFIG_PACKAGE_kmod-usb-ledtrig-usbport=m
+CONFIG_PACKAGE_kmod-usb-ohci=m
+CONFIG_PACKAGE_kmod-usb2=m
+CONFIG_PACKAGE_kmod-usb3=m
+CONFIG_PACKAGE_libblkid=y
+CONFIG_PACKAGE_libcomerr=y
+CONFIG_PACKAGE_libertas-spi-firmware=y
+CONFIG_PACKAGE_libertas-usb-firmware=y
+CONFIG_PACKAGE_libext2fs=y
+CONFIG_PACKAGE_libf2fs=y
+CONFIG_PACKAGE_libiwinfo-lua=y
+CONFIG_PACKAGE_libltdl=y
+CONFIG_PACKAGE_liblua=y
+CONFIG_PACKAGE_librt=y
+CONFIG_PACKAGE_libsmartcols=y
+CONFIG_PACKAGE_libss=y
+CONFIG_PACKAGE_libubus-lua=y
+CONFIG_PACKAGE_libusb-1.0=y
+CONFIG_PACKAGE_libuuid=y
+CONFIG_PACKAGE_lua=y
+CONFIG_PACKAGE_mkf2fs=y
+CONFIG_PACKAGE_mt7601u-firmware=y
+CONFIG_PACKAGE_mwl8k-firmware=y
+CONFIG_PACKAGE_nvram=m
+CONFIG_PACKAGE_osafeloader=m
+CONFIG_PACKAGE_oseama=m
+CONFIG_PACKAGE_otrx=m
+CONFIG_PACKAGE_p54-usb-firmware=y
+CONFIG_PACKAGE_partx-utils=y
+CONFIG_PACKAGE_prism54-firmware=y
+CONFIG_PACKAGE_r8169-firmware=y
+CONFIG_PACKAGE_rpcd=y
+CONFIG_PACKAGE_rs9113-firmware=y
+CONFIG_PACKAGE_rt2800-usb-firmware=y
+CONFIG_PACKAGE_rt73-usb-firmware=y
+CONFIG_PACKAGE_rtl8188eu-firmware=y
+CONFIG_PACKAGE_rtl8192ce-firmware=y
+CONFIG_PACKAGE_rtl8192cu-firmware=y
+CONFIG_PACKAGE_rtl8192de-firmware=y
+CONFIG_PACKAGE_rtl8192se-firmware=y
+CONFIG_PACKAGE_rtl8192su-firmware=y
+CONFIG_PACKAGE_rtl8821ae-firmware=y
+CONFIG_PACKAGE_swconfig=m
+CONFIG_PACKAGE_ti-3410-firmware=y
+CONFIG_PACKAGE_ti-5052-firmware=y
+CONFIG_PACKAGE_uboot-envtools=y
+CONFIG_PACKAGE_uclibcxx=y
+CONFIG_PACKAGE_uhttpd=y
+CONFIG_PACKAGE_usb-modeswitch=y
+CONFIG_PACKAGE_usbutils=y
+CONFIG_PACKAGE_wl12xx-firmware=y
+CONFIG_PACKAGE_wl18xx-firmware=y
+CONFIG_PACKAGE_zlib=y
+CONFIG_SDK=y
+# CONFIG_TARGET_DEVICE_bcm53xx_DEVICE_asus-rt-ac56u is not set
+# CONFIG_TARGET_DEVICE_bcm53xx_DEVICE_asus-rt-ac68u is not set
+# CONFIG_TARGET_DEVICE_bcm53xx_DEVICE_asus-rt-ac87u is not set
+# CONFIG_TARGET_DEVICE_bcm53xx_DEVICE_asus-rt-n18u is not set
+# CONFIG_TARGET_DEVICE_bcm53xx_DEVICE_buffalo-wxr-1900dhp is not set
+# CONFIG_TARGET_DEVICE_bcm53xx_DEVICE_buffalo-wzr-1750dhp is not set
+# CONFIG_TARGET_DEVICE_bcm53xx_DEVICE_buffalo-wzr-600dhp2 is not set
+# CONFIG_TARGET_DEVICE_bcm53xx_DEVICE_buffalo-wzr-900dhp is not set
+# CONFIG_TARGET_DEVICE_bcm53xx_DEVICE_dlink-dir-885l is not set
+# CONFIG_TARGET_DEVICE_bcm53xx_DEVICE_netgear-r6250 is not set
+# CONFIG_TARGET_DEVICE_bcm53xx_DEVICE_netgear-r6300-v2 is not set
+# CONFIG_TARGET_DEVICE_bcm53xx_DEVICE_netgear-r7000 is not set
+# CONFIG_TARGET_DEVICE_bcm53xx_DEVICE_netgear-r7900 is not set
+# CONFIG_TARGET_DEVICE_bcm53xx_DEVICE_netgear-r8000 is not set
+# CONFIG_TARGET_DEVICE_bcm53xx_DEVICE_smartrg-sr400ac is not set
+# CONFIG_TARGET_DEVICE_bcm53xx_DEVICE_tenda-ac9 is not set
+# CONFIG_TARGET_DEVICE_bcm53xx_DEVICE_tplink-archer-c5-v2 is not set
+# CONFIG_TARGET_DEVICE_bcm53xx_DEVICE_tplink-archer-c9-v1 is not set
+CONFIG_TARGET_EXT4_BLOCKSIZE=4096
+CONFIG_TARGET_EXT4_BLOCKSIZE_4K=y
+CONFIG_TARGET_EXT4_RESERVED_PCT=0
+CONFIG_TARGET_IMAGES_GZIP=y
+CONFIG_TARGET_ROOTFS_EXT4FS=y
+CONFIG_TARGET_ROOTFS_PARTSIZE=256
+CONFIG_VERSIONOPT=y
+CONFIG_VERSION_BUG_URL=""
+CONFIG_VERSION_CODE=""
+CONFIG_VERSION_DIST="OpenWrt"
+CONFIG_VERSION_FILENAMES=y
+CONFIG_VERSION_HWREV=""
+CONFIG_VERSION_MANUFACTURER=""
+CONFIG_VERSION_MANUFACTURER_URL=""
+CONFIG_VERSION_NUMBER=""
+CONFIG_VERSION_PRODUCT=""
+CONFIG_VERSION_REPO="http://downloads.openwrt.org/releases/18.06.1"
+CONFIG_VERSION_SUPPORT_URL=""
+# CONFIG_COLLECT_KERNEL_DEBUG is not set
+CONFIG_PACKAGE_brcmfmac-firmware-usb=y
+CONFIG_PACKAGE_hostapd-common=y
+# CONFIG_PACKAGE_hostapd-utils is not set
+CONFIG_PACKAGE_iw=y
+CONFIG_PACKAGE_iwinfo=y
+CONFIG_PACKAGE_kmod-brcmfmac=y
+CONFIG_PACKAGE_kmod-brcmutil=y
+CONFIG_PACKAGE_kmod-cfg80211=y
+CONFIG_PACKAGE_kmod-nls-base=y
+CONFIG_PACKAGE_kmod-usb-core=y
+CONFIG_PACKAGE_wireless-regdb=y
+# CONFIG_PACKAGE_wpa-cli is not set
+CONFIG_PACKAGE_wpad-mini=y
+# CONFIG_TARGET_PER_DEVICE_ROOTFS is not set
+# CONFIG_WPA_RFKILL_SUPPORT is not set
+# CONFIG_WPA_SUPPLICANT_NO_TIMESTAMP_CHECK is not set
