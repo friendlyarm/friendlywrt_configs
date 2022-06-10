@@ -1,3 +1,0 @@
-CONFIG_PACKAGE_libpci=y
-CONFIG_PACKAGE_pciids=y
-CONFIG_PACKAGE_pciutils=y
